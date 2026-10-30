@@ -1,0 +1,10 @@
+Priority,Requirement,Reason,Dependency,Owner,Stage
+Critical,Confirm stable IDs,Join/dedupe/audit,Identity service,Engineering,Pre-launch
+Critical,Implement authoritative reward ledger,Separate activity from credit,Wallet backend,Engineering + Finance,Pre-launch
+Critical,Define withdrawal state history,Reliable withdrawal KPIs,Payout integration,Engineering + Operations,Pre-launch
+High,Implement versioned event contracts,Consistent event tracking,Frontend/backend,Engineering,Pre-launch
+High,Add ingestion validation/quarantine,Prevent corrupt reporting,Data pipeline,Data Engineering,Pre-launch
+High,Approve active-user/task KPI definitions,Comparable reporting,Product sign-off,Product + Analytics,Pre-dashboard
+High,Implement referral lifecycle,Measure conversion,Referral service,Engineering,Pre-launch
+Medium,Build semantic model/dashboard,Management reporting,Curated tables,Analytics/BI,Post-validation
+Medium,Add freshness/schema monitoring,Reliability,Pipeline,Data Engineering,Post-launch

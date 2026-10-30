@@ -1,0 +1,6 @@
+Check,Result,Severity
+Duplicate IDs by entity,Run Python profiling and SQL checks after import,High
+Missing required fields,Run Python profiling and review source audit sheet,High
+Orphan foreign keys,Run SQL LEFT JOIN checks after data load,High
+Invalid states / malformed dates,Validate against approved enums and ISO-8601 UTC,Medium
+Messy audit duplicate IDs and missing cells,Python script writes messy_audit_checks.csv,High

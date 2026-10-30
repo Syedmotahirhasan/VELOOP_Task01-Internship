@@ -1,0 +1,11 @@
+dataset,rows,columns,duplicate_rows,missing_cells,columns_with_missing
+01_Users_1000,1000,16,0,846,1
+02_Sessions,7913,12,0,466,1
+03_Feature_Events,35704,13,0,0,0
+04_Daily_Activity,6667,17,0,0,0
+05_Task_Activity,9846,12,0,10494,2
+06_Milestones,4799,6,0,40,1
+07_Feature_Usage,15,7,0,0,0
+08_Data_Dictionary,26,7,0,0,0
+09_README_Status,15,2,0,0,0
+10_Event_Data_Quality_Audit,35714,13,10,0,0

@@ -1,0 +1,6 @@
+metric,value,definition
+user_profiles,1000.0,Rows in simulated Users sheet
+sessions,7913.0,Rows in simulated Sessions sheet
+feature_events,35704.0,Rows in simulated Feature Events sheet
+task_activity_records,9846.0,Rows in simulated Task Activity sheet
+task_completion_rate_pct,57.15,Completed task rows divided by all task rows

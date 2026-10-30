@@ -1,0 +1,8 @@
+ID,Unknown,Why it matters,Source checked,Risk,Status,Owner
+A001,Production event implementation,Required to trust event KPIs,Assignment + simulated files,High,To Be Verified,Engineering
+A002,Stable user/event/session/transaction IDs,Required for joins and deduplication,Simulated IDs only,Critical,To Be Verified,Engineering
+A003,Authoritative reward-credit source,Activity flag is not ledger credit,No ledger supplied,Critical,To Be Verified,Finance/Engineering
+A004,Withdrawal status state machine,Required for queue and completion metrics,Brief lifecycle examples,Critical,Proposed / Verify,Operations
+A005,Definition of active user,Required for DAU/WAU/MAU,Not specified,High,Proposed,Product/Analytics
+A006,Business timezone,Required for daily metrics,Not specified,Medium,To Be Verified,Product/Analytics
+A007,Cross-workbook population link,Avoid invalid joins,Separate simulated populations,High,Do not merge without validation,Data

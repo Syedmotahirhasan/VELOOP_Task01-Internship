@@ -1,0 +1,12 @@
+Area,Evidence status,Evidence available,Owner to close gap
+User/account,Confirmed for simulated sample,Behavior workbook user/profile sheets,Engineering / Product
+Sessions,Confirmed for simulated sample,Behavior workbook session sheet,Engineering / Data
+Feature events,Confirmed for simulated sample,Behavior workbook feature event sheets,Engineering
+Task lifecycle,Partially supported,Simulated task statuses and activity rows,Product / Engineering
+Reward credit,Partially supported,Reward-related events only; no authoritative ledger,Finance / Engineering
+XP,Confirmed for simulated sample,XP-related sample events,Product / Engineering
+Wallet/withdrawals,To Be Verified,No authoritative lifecycle evidence supplied,Finance / Engineering
+Referrals,To Be Verified,No complete referral lifecycle evidence supplied,Product / Engineering
+Production instrumentation,To Be Verified,No production event export supplied,Engineering
+Dashboard deployment,To Be Verified,Blueprint only; no PBIX/service access,BI / IT
+Privacy controls,Proposed,Governance recommendations only,Privacy / Security

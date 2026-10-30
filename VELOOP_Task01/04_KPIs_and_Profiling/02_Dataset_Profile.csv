@@ -1,0 +1,11 @@
+dataset,rows_including_header,data_rows,columns,duplicate_rows,missing_cells,columns_with_missing
+01_Users_1000,1001,1000,16,See Python reproducible profile,See Python reproducible profile,See Python reproducible profile
+02_Sessions,7914,7913,12,See Python reproducible profile,See Python reproducible profile,See Python reproducible profile
+03_Feature_Events,35705,35704,13,See Python reproducible profile,See Python reproducible profile,See Python reproducible profile
+04_Daily_Activity,6668,6667,17,See Python reproducible profile,See Python reproducible profile,See Python reproducible profile
+05_Task_Activity,9847,9846,12,See Python reproducible profile,See Python reproducible profile,See Python reproducible profile
+06_Milestones,4800,4799,6,See Python reproducible profile,See Python reproducible profile,See Python reproducible profile
+07_Feature_Usage,16,15,7,See Python reproducible profile,See Python reproducible profile,See Python reproducible profile
+08_Data_Dictionary,27,26,7,See Python reproducible profile,See Python reproducible profile,See Python reproducible profile
+09_README_Status,16,15,2,See Python reproducible profile,See Python reproducible profile,See Python reproducible profile
+10_Event_Data_Quality_Audit,35715,35714,13,See Python reproducible profile,See Python reproducible profile,See Python reproducible profile
