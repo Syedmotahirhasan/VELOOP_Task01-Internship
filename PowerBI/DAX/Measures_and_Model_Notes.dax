@@ -1,0 +1,22 @@
+-- Create these measures after importing the matching CSV tables into Power BI.
+User Profiles = DISTINCTCOUNT(Users[user_id])
+Session Records = COUNTROWS(Sessions)
+Feature Event Records = COUNTROWS(FeatureEvents)
+Users with Events = DISTINCTCOUNT(FeatureEvents[user_id])
+Average Session Minutes = DIVIDE(AVERAGE(Sessions[session_duration_seconds]), 60)
+Task Activity Records = COUNTROWS(TaskActivity)
+Completed Task Records = CALCULATE(COUNTROWS(TaskActivity), TaskActivity[task_status] = "Completed")
+Task Completion Rate = DIVIDE([Completed Task Records], [Task Activity Records])
+Failed Task Records = CALCULATE(COUNTROWS(TaskActivity), TaskActivity[task_status] = "Failed")
+Task Failure Rate = DIVIDE([Failed Task Records], [Task Activity Records])
+Reward-Related Events = CALCULATE(COUNTROWS(FeatureEvents), FeatureEvents[reward_related_flag] = "Yes")
+XP-Related Events = CALCULATE(COUNTROWS(FeatureEvents), FeatureEvents[xp_related_flag] = "Yes")
+Onboarding Completed Users = CALCULATE(DISTINCTCOUNT(Users[user_id]), Users[onboarding_status] = "Completed")
+Verified Users = CALCULATE(DISTINCTCOUNT(Users[user_id]), Users[verification_status] = "Verified")
+-- Model relationships (single-direction, one-to-many):
+-- Users[user_id] -> Sessions[user_id]
+-- Users[user_id] -> FeatureEvents[user_id]
+-- Users[user_id] -> DailyActivity[user_id]
+-- Users[user_id] -> TaskActivity[user_id]
+-- Sessions[session_id] -> FeatureEvents[session_id] (validate uniqueness before activating)
+-- Do NOT merge RewardsWorkbook_Users_Clean_SEPARATE.csv into Users: it is a separate synthetic population.

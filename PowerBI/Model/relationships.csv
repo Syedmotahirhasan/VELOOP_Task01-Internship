@@ -1,0 +1,6 @@
+From Table,From Column,To Table,To Column,Cardinality,Notes
+Users,user_id,Sessions,user_id,One-to-many,User is dimension
+Users,user_id,FeatureEvents,user_id,One-to-many,User is dimension
+Users,user_id,DailyActivity,user_id,One-to-many,User is dimension
+Users,user_id,TaskActivity,user_id,One-to-many,User is dimension
+Sessions,session_id,FeatureEvents,session_id,One-to-many,Validate session_id uniqueness
