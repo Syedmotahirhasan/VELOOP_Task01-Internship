@@ -20,4 +20,3 @@
 | last_activity_at | timestamp UTC | Recommended | Recency | Analytics layer | Derived from qualifying event | Proposed |
 | consent_status | enum | If applicable | Consent governance | Consent service | Auditable timestamped changes | Rewards workbook only; separate population |
 
-Do not collect unnecessary personal data. Use pseudonymous IDs in analytics. Restrict direct identifiers such as name/email to approved operational systems.
