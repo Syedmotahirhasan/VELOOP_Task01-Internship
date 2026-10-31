@@ -492,18 +492,7 @@ The project provides a structured foundation for understanding simulated user be
 
 ---
 
-## 18. Disclaimer
 
-This project was developed for educational, internship, and portfolio purposes.
 
-All datasets and calculated findings are simulated/fictional and must not be interpreted as actual VELOOP company performance, financial results, production usage, or live user activity.
-
-Proposed product requirements and event specifications are analytical recommendations that require verification by the relevant VELOOP product and engineering teams before production implementation.
-
----
-
-## Author
-
-**VELOOP Data Analyst Internship – Task 01**
 
 **Skills Demonstrated:** Python | Pandas | SQL | MySQL | Excel | Power BI | Data Cleaning | Data Profiling | Exploratory Data Analysis | Data Quality | KPI Analysis | Product Analytics | Data Modelling | Event Tracking | Business Intelligence | Business Insights
